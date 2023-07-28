@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCalendar.Server", "Server\GymCalendar.Server.csproj", "{6FD656C6-5CD1-4A41-9EDA-66D88956B29B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCalendar.Server", "GymCalendar.Server\GymCalendar.Server.csproj", "{6FD656C6-5CD1-4A41-9EDA-66D88956B29B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCalendar.Client", "Client\GymCalendar.Client.csproj", "{BC18C24D-9062-4114-817A-8324235E3860}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCalendar.Client", "GymCalendar.Client\GymCalendar.Client.csproj", "{BC18C24D-9062-4114-817A-8324235E3860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCalendar.Shared", "Shared\GymCalendar.Shared.csproj", "{5E0C3602-3A1A-4E81-B41C-E653BC22AF4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymCalendar.Shared", "GymCalendar.Shared\GymCalendar.Shared.csproj", "{5E0C3602-3A1A-4E81-B41C-E653BC22AF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{E8047A98-225E-484B-8711-C67421692BE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{616AA86C-7D7E-4A33-973C-8946C5A2223E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7CADF0D3-C885-4B4D-B48D-B5B3C0701FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FD656C6-5CD1-4A41-9EDA-66D88956B29B} = {616AA86C-7D7E-4A33-973C-8946C5A2223E}
+		{BC18C24D-9062-4114-817A-8324235E3860} = {E8047A98-225E-484B-8711-C67421692BE2}
+		{5E0C3602-3A1A-4E81-B41C-E653BC22AF4A} = {7CADF0D3-C885-4B4D-B48D-B5B3C0701FA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EDBFF39-7D1A-4FAF-AEA2-98E4DEA7B13E}

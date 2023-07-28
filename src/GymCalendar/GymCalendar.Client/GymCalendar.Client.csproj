@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\GymCalendar.Shared.csproj" />
+    <ProjectReference Include="..\GymCalendar.Shared\GymCalendar.Shared.csproj" />
   </ItemGroup>
 
 </Project>
